@@ -1,0 +1,42 @@
+{
+  "name": "gulp-teenypng",
+  "version": "0.1.0",
+  "description": "Minify PNG images with TinyPNG.org",
+  "license": "MIT",
+  "repository": "mikehall314/gulp-teenypng",
+  "contributors": [
+    "Mike Hall <mikehall314@gmail.com>"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "main": "lib/gulp-teenypng.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "lib/gulp-teenypng.js"
+  ],
+  "keywords": [
+    "gulp",
+    "png",
+    "image",
+    "img",
+    "bitmap",
+    "minify",
+    "minifier",
+    "compress",
+    "tinypng",
+    "teenypng"
+  ],
+  "dependencies": {
+    "teenypng": "^0.1.0",
+    "filesize": "^2.0.3",
+    "gulp-util": "^2.2.14",
+    "map-stream": "^0.1.0"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "prompt": "^0.2.12"
+  }
+}

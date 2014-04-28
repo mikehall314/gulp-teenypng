@@ -29,6 +29,6 @@ gulp.task('default', function () {
 
 ## Settings
 
-* `apikey`: Developer API key from TinyPNG.org (required)
+* `apikey`: Developer API key from tinypng.com (required)
 
 Published under the [MIT License](http://opensource.org/licenses/MIT).

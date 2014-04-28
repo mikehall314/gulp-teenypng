@@ -1,7 +1,7 @@
 {
   "name": "gulp-teenypng",
-  "version": "0.1.0",
-  "description": "Minify PNG images with TinyPNG.org",
+  "version": "0.1.1",
+  "description": "Minify PNG images with TinyPNG",
   "license": "MIT",
   "repository": "mikehall314/gulp-teenypng",
   "contributors": [

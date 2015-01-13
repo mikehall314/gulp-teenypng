@@ -39,13 +39,28 @@ describe("gulp-teenypng", function () {
     });
 
     // Test that PNG files to get smaller
-    it("should reduce file size", function (done) {
+    it("should reduce PNG file size", function (done) {
+        this.timeout(0);
+
         teenypng(defaults).on("data", function (file) {
             assert(file.contents.length < fs.statSync("./image.png").size);
             done();
         }).write(new gutil.File({
             path: "./image.png",
             contents: fs.readFileSync("./image.png")
+        }));
+    });
+
+    // Test that JPG files to get smaller
+    it("should reduce JPG file size", function (done) {
+        this.timeout(0);
+
+        teenypng(defaults).on("data", function (file) {
+            assert(file.contents.length < fs.statSync("./image.jpg").size);
+            done();
+        }).write(new gutil.File({
+            path: "./image.jpg",
+            contents: fs.readFileSync("./image.jpg")
         }));
     });
 });

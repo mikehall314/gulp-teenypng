@@ -1,6 +1,6 @@
 # gulp-teenypng
 
-Reduce PNG images with [teenypng](https://github.com/mikehall314/teenypng) and [gulp](http://gulpjs.com/)
+Reduce PNG + JPG images with [teenypng](https://github.com/mikehall314/teenypng) and [gulp](http://gulpjs.com/)
 
 ## Install
 
